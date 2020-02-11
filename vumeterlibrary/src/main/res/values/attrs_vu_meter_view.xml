@@ -6,5 +6,6 @@
         <attr name="vumeter_speed" format="integer"/>
         <attr name="vumeter_stopSize" format="dimension"/>
         <attr name="vumeter_startOff" format="boolean"/>
+        <attr name="vumeter_cornerRadius" format="dimension"/>
     </declare-styleable>
 </resources>

@@ -20,7 +20,8 @@
         vumeter:vumeter_blockNumber="5"
         vumeter:vumeter_blockSpacing="20dp"
         vumeter:vumeter_speed="10"
-        vumeter:vumeter_stopSize="5dp"/>
+        vumeter:vumeter_stopSize="5dp"
+        vumeter:vumeter_cornerRadius="8dp"/>
 
     <Switch
         android:id="@+id/barNumberSwitch"
