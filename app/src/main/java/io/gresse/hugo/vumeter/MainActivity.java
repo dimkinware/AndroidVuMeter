@@ -1,6 +1,5 @@
 package io.gresse.hugo.vumeter;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -8,9 +7,11 @@ import android.widget.CompoundButton;
 import android.widget.SeekBar;
 import android.widget.Switch;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import io.gresse.hugo.vumeterlibrary.VuMeterView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     private VuMeterView mVuMeterView;
 
