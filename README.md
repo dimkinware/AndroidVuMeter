@@ -2,14 +2,17 @@
 
 A simple fake **VuMeter** (or equalizer) for Android that contain only two class and display the VuMeter with canvas and not views. 
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20VuMeter-green.svg?style=flat)](https://android-arsenal.com/details/1/2344)
+Releases
+--------
 
+https://jitpack.io/#dimkinware/AndroidVuMeter
 
 
 Features
 --------
 
-- customisable bar **color**, **spacing**, **speed**, **stopSize** and bar **number**
+- customisable **corner radius** of bar
+- customisable bar **color**, **spacing**, **speed**, **stopSize**, bar **number**
 - available xml attributes and getters/setters
 - match view given size and padding
 - **stop**, **resume** and **play** method
@@ -31,7 +34,8 @@ Usage
         vumeter:vumeter_blockNumber="5"
         vumeter:vumeter_blockSpacing="20dp"
         vumeter:vumeter_backgroundColor="#33b5e5"
-        vumeter:vumeter_startOff="false"/>
+        vumeter:vumeter_startOff="false"
+        vumeter:vumeter_cornerRadius="6dp"/>
 ```
 
 Don't forget to add the namespace fo the the `vumeter` attribute on your root view: 
@@ -39,19 +43,14 @@ Don't forget to add the namespace fo the the `vumeter` attribute on your root vi
 xmlns:vumeter="http://schemas.android.com/apk/res-auto"
 ```
 
-See [DemoApp](https://github.com/HugoGresse/AndroidVuMeter/blob/master/app/src/main/java/io/gresse/hugo/vumeter/MainActivity.java) for complete usage example.
+See [DemoApp](https://github.com/dimkinware/AndroidVuMeter/blob/master/app/src/main/java/io/gresse/hugo/vumeter/MainActivity.java) for complete usage example.
 
 See [wiki](https://github.com/HugoGresse/AndroidVuMeter/wiki) for the available methods. 
 
 Download
 --------
 
-Using Gradle:
-```
-compile 'io.gresse.hugo.vumeterlibrary:vumeterlibrary:1.0.17'
-```
-
-*Hosted on jCenter only.* 
+https://jitpack.io/#dimkinware/AndroidVuMeter
 
 Contribution
 ------
